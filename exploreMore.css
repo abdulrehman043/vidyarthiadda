@@ -1,0 +1,117 @@
+/* exploreMore section and why choose vidyarthiAdda css for window view*/
+.Wsearch{
+    display: none;
+}
+.Wcarousel{
+    display: none;
+}
+.search{
+    display: none;
+}
+
+
+
+/* exploreMore section and why choose vidyarthiAdda css for phone view */
+@media(max-width:1000px)
+{
+    .Wcarousel{
+        display: flex;
+    }
+    .Pcarousel{
+        display: none;
+
+    }
+    
+}
+@media(max-width:991px){
+    .Wsearch{
+        display: flex;
+    }
+    .Psearch{
+        display: none;
+    }
+}
+
+
+/* Icons css */
+span .sm-icons{
+   background-color: #fff;
+   text-align: center;
+   margin: 0 10px;
+   /* display: block; */
+   border-radius: 50%;
+   overflow: hidden;
+   border: 3px solid #fff;
+   z-index: 1;
+}
+
+span  .sm-icons .social{
+    /* position: relative; */
+    color: rgb(78, 77, 77);
+    transition: .5s;
+    z-index: 3;
+}
+ span .sm-icons:hover .social{
+    color: rgb(63, 7, 219);
+    animation-delay: 25s;
+    
+ }
+
+ span .sm-icons:before{
+    content: "";
+    /* position: absolute; */
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: 2;
+ }
+
+ span .sm-icons:hover:before{
+    top: 0;
+ }
+
+ /* css for footer nav and icos center for phone view */
+ @media(max-width:770px){
+    .p-icons{
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+    }
+    .fnav{
+        text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+    }
+ }
+
+/* imageslides fixed  */
+.f-img1{
+    bottom: 10rem;
+    position: absolute;
+}
+.f-img{
+    bottom: 26.25rem;
+    position: absolute;
+}
+
+.p-imgslide{
+    display: none;
+}
+@media(max-width:1150px){
+    .w-imgslide{
+        display: none;
+
+    }
+   .p-imgslide{
+    display: inline;
+   }
+}
+
+.p-view{
+    display: none;
+}

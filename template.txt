@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://44.212.22.182/vastyle.css">
+    <link rel="shortcut icon" href="http://44.212.22.182/images/20221101_221428-removebg-preview.png"
+        type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+
+
+
+    <script src="http://44.212.22.182/vascript.js"></script>
+    <title>VidyarthiAdda</title>
+</head>
+
+<body>
+    <div class="menu_head">
+        <img class="logo-va" src="http://44.212.22.182/images/20221102_105613.png" />
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul class="responsive_navbar">
+            <li>Home</li>
+            <li>Management</li>
+            <li>Pharmacy</li>
+            <li>BCA/MCA</li>
+            <li>Engineering</li>
+            <!-- <li>Text</li>
+            <li>Color</li> -->
+        </ul>
+    </div>
+
+    
+    <div class="footer-basic">
+        <footer style="display:flex;">
+            <div class="firstcolft">
+                <!-- <h4>Our Service</h4> -->
+
+                <p class="ft-1txt">Terms and Conditions</p>
+                <p class="ft-1txt">About us</p>
+                <p class="ft-1txt">FAQs</p>
+
+            </div>
+            <img class="new-ft-img" src="http://44.212.22.182/images/20221102_105613.png" />
+            <div class="secondcolft">
+                <!-- <h4>Connect</h4> -->
+
+                <img src="http://44.212.22.182/images/4234234.png" alt="" class="socialmediaicon">
+                <img src="http://44.212.22.182/images/Twitter.png" alt="" class="socialmediaicon">
+                <img src="http://44.212.22.182/images/Insta.png" alt="" class="socialmediaicon">
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
